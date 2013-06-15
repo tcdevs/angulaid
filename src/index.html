@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  	<meta charset="utf-8">
+    <title>Angulaid Boilerplate</title>
+    <!-- Default meta data  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the document meta tag of the page description">
+    <meta name="author" content="Developer-name">
+    <meta name="designer" content="Designer-name">
+    <meta name="copyright" content="Company-name">
+    <meta name="url" content="http://mycompany.com">
+    <meta name="language" content="EN">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="your, tags">
+    <meta name="date" content="Sep. 27, 2010">
+    <meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm">
+    <!-- Custom meta data  -->
+    <meta name="google-analytics" content="1-xxxxxxx">
+    <meta name="version" content="0.0.1 Alpha">
+    <!-- All styles -->
+  	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  	<link href="css/vendors/bootstrap-combined-no-icon2.3.2-fontawesome3.2.0.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/vendors/font-awesome.css"> -->
+  	<link rel="stylesheet" href="css/bg-pack.1.0.1.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Angular view for routeProvider -->
+    <ng-view></ng-view>
+
+	<!-- ================ All Javascript ================ -->
+  	<!-- JQuery 1.9.1 remote or fallback to a local copy -->
+  	<script src="http://code.jquery.com/jquery-latest.js"></script>
+  	<script>window.jQuery || document.write("<script src='js/vendors/jquery-1.9.1.min.js'><\/script>")</script>
+    
+    <!-- Load Angular via CDN or fallback to a local copy -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script>window.angular || document.write("<script src='js/vendors/angular/angular.js'><\/script>")</script>
+    <!-- Angular-UI-Bootstrap 0.3.0 via CDN or fallback to a local copy -->
+    <script src="js/vendors/ui-bootstrap-0.3.0.min.js"></script>
+   
+
+    <script src="js/controllers.js"></script>
+    <script src="js/models.js"></script>
+  	<script src="js/directives.js"></script>
+    <script src="js/filters.js"></script>
+    <script>
+        //console.log(window.angular.collapse )
+    </script>
+    
+    
+</body>
+</html>
